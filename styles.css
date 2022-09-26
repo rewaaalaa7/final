@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.parent{
+    height: 100vh;
+    background: linear-gradient(
+        to right,
+        black 0%,
+        black 40%,
+        white 40%,
+        white 100%
+    );
+}
+.child1{
+   
+}
