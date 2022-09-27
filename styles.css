@@ -79,10 +79,15 @@ background-repeat: no-repeat;
 .container form{
     padding: 0 40px;
 }
+form
+{
+    text-align: center;
+}
 form.field{
     position: relative;
     border-bottom: 2px solid #adadad;
     margin: 30px 0;
+
 
 }
 .field input{
