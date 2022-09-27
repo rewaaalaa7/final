@@ -1,123 +1,112 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-.parent
-{
+
+.parent {
     height: 100vh;
     display: flex;
     justify-content: space-between;
 }
-.child2
-{
-    height: 100%;
-width: 60%;
-background-color: white;
 
-}
-.child2
-{
- height: 100%;
-width: 50%;
-background-size: cover;
-background-repeat: no-repeat;
-
-}
-.child1
-{
- height: 100%;
-width: 50%;
-background-color:white ;
-display: flex;
-justify-content: center;
-align-items: center;
-text-align: center;
-flex-direction: column;
-
-}
-.child2 input
-{
-    width: 40%;
-    margin: 25px 0 ;
-    display: felx;
-    align-items: center;
+.child1 {
+    display: flex;
     justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    width: 50%;
+    background-color: black;
+    background-image: url("https://images.unsplash.com/photo-1604515586704-3e8d954b47ec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+
 
 }
-.child1
-{
-    height: 100%;
-    width: 100%;
-width: 40%;
-background-color:black;
-background-image: url("https://images.unsplash.com/photo-1604515586704-3e8d954b47ec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
-background-size: cover;
-background-repeat: no-repeat;
-}
-.text{
+
+.text {
     color: white;
-    margin: 20px 15px;
-    background-color: rebeccapurple;
 }
-.heading3{
+
+.heading3 {
     padding: 5px;
 }
-.container{
-    position: absolute;
-    top: 50%;
-    left: 70%;
-    transform: translate(-50%, -50%);
-    width: 400px;
+
+.child2 {
+    height: 100%;
+    width: 60%;
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* to make container in center of Y and X */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* to make  all text in child2 in the center  */
+    text-align: center;
 }
-.title{
+
+.child2 input {
+    width: 40%;
+    margin: 25px 0;
+}
+
+.container {
+    height: 50%;
+}
+
+.title {
     padding: 30px 0;
     text-transform: capitalize;
     font-size: 30px;
-    text-align: center;
 }
-.container form{
+
+.container form {
     padding: 0 40px;
 }
-form
-{
-    text-align: center;
-}
-form.field{
-    position: relative;
-    border-bottom: 2px solid #adadad;
-    margin: 30px 0;
 
 
-}
-.field input{
+.field input {
     width: 100%;
-    padding: 0 10px;
+    padding: 5px 10px;
     height: 40px;
-    font-size: 10px;
-    border: none;
     font-size: 15px;
-    border: 1px solid ;
-    border-radius: 15px;
+    border: 1px solid rgba(143, 143, 143, 0.533);
+    border-radius: 22px;
 }
-.field label{
+
+/* you can remove  this commint  */
+/* .field label
+{
     position: absolute;
     top: 50px;
     left: 5px;
+} */
+
+
+.pass {
+    margin: -5px 0 20px 5px;
 }
-.pass{
-    margin:-5px 0 20px 5px ;
-    color: #a6a6a6 ;
-    cursor: pointer;
+
+.pass a 
+{
+    color: #a6a6a6;
+    text-decoration: none;
 }
-.pass:hover{
+
+.pass a:hover {
     text-decoration: underline;
 }
-.signup a{ text-decoration: none;
+
+.signup a 
+{
+    text-decoration: none;
     color: black;
 }
 
-.signin{
+.signin 
+{
     width: 30%;
     height: 30px;
     border: 1px solid black;
@@ -125,19 +114,12 @@ form.field{
     color: white;
     cursor: pointer;
     border-radius: 15px;
-}
-.signin:hover{
-    border-color: black;
-    opacity: 0.5;
-}
-.signup{
     margin: 30px 0;
     text-align: center;
     font-size: 16px;
 }
-.signup a{
-    color: #adadad;
-}
-.signup a:hover{
-    text-decoration: underline;
+
+.signin:hover {
+    border-color: black;
+    opacity: 0.5;
 }
