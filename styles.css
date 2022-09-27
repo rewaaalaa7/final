@@ -7,7 +7,6 @@
 {
     height: 100vh;
     display: flex;
-<<<<<<< HEAD
     justify-content: space-between;
 }
 .child2
@@ -15,15 +14,12 @@
     height: 100%;
 width: 60%;
 background-color: white;
-=======
 
 }
 .child2
 {
  height: 100%;
 width: 50%;
-background-color: black;
-background-image: url("mobile.png");
 background-size: cover;
 background-repeat: no-repeat;
 
@@ -33,13 +29,11 @@ background-repeat: no-repeat;
  height: 100%;
 width: 50%;
 background-color:white ;
->>>>>>> efd7e320548716dc9e500f8b11c7a29b947d35fb
 display: flex;
 justify-content: center;
 align-items: center;
 text-align: center;
 flex-direction: column;
-<<<<<<< HEAD
 
 }
 .child2 input
@@ -57,7 +51,7 @@ flex-direction: column;
     width: 100%;
 width: 40%;
 background-color:black;
-background-image: url(https://images.unsplash.com/photo-1604515586704-3e8d954b47ec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+background-image: url("https://images.unsplash.com/photo-1604515586704-3e8d954b47ec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
 background-size: cover;
 background-repeat: no-repeat;
 }
@@ -141,11 +135,4 @@ form.field{
 }
 .signup a:hover{
     text-decoration: underline;
-=======
-}
-.child1 input
-{
-    width: 80%;
-    margin: 30PX;
->>>>>>> efd7e320548716dc9e500f8b11c7a29b947d35fb
 }
